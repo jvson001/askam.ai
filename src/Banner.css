@@ -1,0 +1,62 @@
+.banner {
+    position: relative;
+    width: 1350px;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* mix-blend-mode: screen; */
+  }
+.banner-title {
+  position: absolute;
+  width: 772px;
+  height: 145px;
+  left: 96px;
+  top: 222px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 145px;
+  background: linear-gradient(90deg, #A794FD 0%, #BC91FB 32.82%, #C690FA 53.25%, #D58EF9 77.4%, #E98BF7 97.52%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner-subtitle {
+  position: absolute;
+  width: 730px;
+  height: 435px;
+  left: 106px;
+  top: 360px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  background: linear-gradient(90deg, #A794FD 0%, #BC91FB 32.82%, #C690FA 53.25%, #D58EF9 77.4%, #E98BF7 97.52%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.get-started {
+  position: absolute;
+  width: 310px;
+  height: 80px;
+  left: 144px;
+  top: 540px;
+  background: #D9D9D9;
+  border-radius: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  border: none;
+  color: #2b2b2b; /* Text color for the Get Started button */
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
